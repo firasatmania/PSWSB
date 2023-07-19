@@ -17,7 +17,7 @@ public interface ISystemDAO {
     Shoe seeShoe(int id);
 
     List<Shoe> SeeShoeByPrice(double price);
-
+    //Pascal tu a besoin d'aider
     List<Shoe> SeeShoeByBrand(String brand);
 
     Collection<Shoe> seeAllShoesInCart(int IdClient);

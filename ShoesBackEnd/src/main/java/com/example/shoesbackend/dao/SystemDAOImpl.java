@@ -71,6 +71,16 @@ public class SystemDAOImpl implements ISystemDAO{
         return null;
     }
 
+    @Override
+    public List<Shoe> SeeShoeByPrice(double price) {
+        return null;
+    }
+
+    @Override
+    public List<Shoe> SeeShoeByBrand(String brand) {
+        return null;
+    }
+
     /**
      *
      * @param IdClient
